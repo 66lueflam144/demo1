@@ -1,37 +1,94 @@
-<style>
-
-#header1:hover{
-    color: grey;
-}   
-    
 
 
-#header2:hover{
-    color: grey;
-    
-    
-}
-
-#header3:hover{
-    color: grey;
-    
-}
-
-#header4:hover{
-    color: grey;
-    
-}
-
-#header5:hover{
-    color: grey;
-    
-}
-
-#f1{
+#div1{
+    width: 20%;
+    height: 50px;
     background-color: orange;
-    border-radius: 30px;
-    width: 1330px;
-    height: 60px;
-    vertical-align: middle;
-    
+    float: left;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    text-align: center;
 }
+
+#div2{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    float: left;
+    text-align: center;
+}
+
+#div3{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    float: left;
+    text-align: center;
+}
+
+#div4{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    float: left;
+    text-align: center;
+
+}
+
+#div5{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    float: left;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+}
+
+#div1:hover{
+color: grey;
+}
+
+#div2:hover{
+    color: grey;
+}
+
+#div3:hover{
+    color: grey;
+}
+
+#div4:hover{
+    color: grey;
+}
+
+#div5:hover{
+    color: grey;
+}
+
+.txt {
+    position: relative;
+}
+
+.txt img.qrcode {
+    position: absolute;
+    z-index: 99;
+    top: -135px;
+    right: -28px;
+    width: 7.5rem;
+    max-width: none;
+    transform: scale(0);
+    transform-origin: top right;
+    opacity: 0;
+    border: .3125rem solid #0085ba;
+    border-radius: .25rem;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.txt:hover img.qrcode {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
