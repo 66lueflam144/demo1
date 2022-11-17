@@ -82,7 +82,7 @@ color: grey;
 }
 
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -94,6 +94,8 @@ color: grey;
     align-items: center;
 }
 
+
+
 .box{
     background-color: white;
     color: black;
@@ -104,10 +106,12 @@ color: grey;
     overflow: auto;
     border: 2px solid black;
     position: relative;
-    left: 15%;
-    right: 25%;
+    left: 10%;
+    right: 15%;
     transform: translateY(300%);
+    margin: 100px;
 }
+
 
 
 
