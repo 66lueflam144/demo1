@@ -65,32 +65,6 @@ color: grey;
     color: grey;
 }
 
-.txt {
-    position: relative;
-}
-
-.txt img.qrcode {
-    position: absolute;
-    z-index: 99;
-    top: -135px;
-    right: -28px;
-    width: 7.5rem;
-    max-width: none;
-    transform: scale(0);
-    transform-origin: top right;
-    opacity: 0;
-    border: .3125rem solid #0085ba;
-    border-radius: .25rem;
-    -webkit-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.txt:hover img.qrcode {
-    transform: scale(1);
-    opacity: 1;
-}
-
 
 
 #intro{
@@ -122,15 +96,15 @@ color: grey;
 
 .box{
     background-color: white;
-    color: white;
+    color: black;
     width: 900px;
-    height: 600px;
+    height: 350px;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
     overflow: auto;
-    border: 1px solid steelblue;
+    border: 2px solid black;
     position: relative;
-    left: 25%;
+    left: 15%;
     right: 25%;
 }
 
