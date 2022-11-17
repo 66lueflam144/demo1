@@ -91,4 +91,13 @@ color: grey;
     opacity: 1;
 }
 
+#intro{
+    width: 200px;
+    height: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 30px;
+    border-color: black;
+}
+
 
