@@ -106,13 +106,15 @@ color: grey;
     position: relative;
     left: 15%;
     right: 25%;
+    transform: translateY(300%);
 }
 
 
 
-.p padding{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 60px;
-    padding-left: 60px;
+#content{
+    background-image: url(./images/background_Homepage.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+
 }
