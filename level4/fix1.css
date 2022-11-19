@@ -162,6 +162,21 @@ color: grey;
     border: solid 3px purple;
 }
 
+.boxs1{
+    background-color: rgb(236, 230, 214);
+    color: black;
+    width: 850px;
+    height: 600px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+    border: 5px solid grey;
+    position: relative;
+    left: 15%;
+    right: 15%;
+    transform: translateY(300%);
+    margin: 50px;
+}
 .boxs2{
     background-color: blue;
     color: black;
@@ -172,7 +187,7 @@ color: grey;
     overflow: auto;
     border: 5px solid grey;
     position: relative;
-    left: 10%;
+    left: 15%;
     right: 15%;
     transform: translateY(300%);
     margin: 50px;
@@ -188,7 +203,7 @@ color: grey;
     overflow: auto;
     border: 5px solid grey;
     position: relative;
-    left: 10%;
+    left: 15%;
     right: 15%;
     transform: translateY(300%);
     margin: 50px;
