@@ -87,12 +87,12 @@ color: grey;
 .box{
     background-color: white;
     color: black;
-    width: 900px;
+    width: 860px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     overflow: auto;
-    border: 2px solid black;
+    border: 3px solid black;
     position: relative;
     left: 10%;
     right: 15%;
@@ -101,20 +101,7 @@ color: grey;
 }
 
 
-.boxab{
-    background-color: rgb(236, 230, 214);
-    width: 1000px;
-    height: 400px;
-    border-radius: 10px;
-    text-align: center;
-    overflow: auto;
-    border: 4px solid grey;
-    position: relative;
-    left: 10%;
-    right: 15%;
-    transform: translateY(300%);
-    margin: 100px;
-}
+
 
 
 #content{
@@ -124,12 +111,12 @@ color: grey;
     background-attachment: scroll;
 
 }
-
+/*AboutUs部分*/
 .boxs{
-    background-color: white;
+    background-color: rgb(236, 230, 214);
     color: black;
     width: 850px;
-    height: 400px;
+    height: 600px;
     border-radius: 30px;
     text-align: center;
     overflow: auto;
@@ -138,16 +125,16 @@ color: grey;
     left: 10%;
     right: 15%;
     transform: translateY(300%);
-    margin: 100px;
+    margin: 50px;
 }
 
 .boxcd1{
     background-color: rgb(236, 230, 214);
-    width: 140px;
-    height: 260px;
+    width: 170px;
+    height: 350px;
     position: absolute;
     left: 100px;
-    top: 15%;
+    top: 20%;
     border-radius: 30px;
     border: solid 3px purple;
 }
@@ -155,22 +142,54 @@ color: grey;
 
 .boxcd2{
     background-color: rgb(236, 230, 214);
-    width: 140px;
-    height: 260px;
+    width: 170px;
+    height: 350px;
     position: absolute;
     left: 360px;
-    top: 13%;
+    top: 23%;
     border-radius: 30px;
     border: solid 3px purple;
 }
 
 .boxcd3{
     background-color: rgb(236, 230, 214);
-    width: 140px;
-    height: 260px;
+    width: 170px;
+    height: 350px;
     position: absolute;
     left: 620px;
-    top: 15%;
+    top: 20%;
     border-radius: 30px;
     border: solid 3px purple;
+}
+
+.boxs2{
+    background-color: blue;
+    color: black;
+    width: 850px;
+    height: 600px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+    border: 5px solid grey;
+    position: relative;
+    left: 10%;
+    right: 15%;
+    transform: translateY(300%);
+    margin: 50px;
+}
+
+.boxs3{
+    background-color: rgb(236, 230, 214);
+    color: black;
+    width: 850px;
+    height: 600px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+    border: 5px solid grey;
+    position: relative;
+    left: 10%;
+    right: 15%;
+    transform: translateY(300%);
+    margin: 50px;
 }
