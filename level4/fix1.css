@@ -178,7 +178,26 @@ color: grey;
     margin: 50px;
 }
 .boxs2{
-    background-color: blue;
+    background-color: whitesmoke;
+    color: black;
+    width: 850px;
+    height: 600px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+    border: 5px solid green;
+    position: relative;
+    left: 15%;
+    right: 15%;
+    transform: translateY(300%);
+    margin: 50px;
+}
+
+.boxs3{
+    background-color: white;
+    background-image: url(./images/background_QA.png);
+    background-size: auto;
+    background-repeat: no-repeat;
     color: black;
     width: 850px;
     height: 600px;
@@ -193,18 +212,14 @@ color: grey;
     margin: 50px;
 }
 
-.boxs3{
-    background-color: rgb(236, 230, 214);
-    color: black;
-    width: 850px;
-    height: 600px;
-    border-radius: 30px;
+#hidden,.flip{
+    padding: 10px;
     text-align: center;
-    overflow: auto;
-    border: 5px solid grey;
-    position: relative;
-    left: 15%;
-    right: 15%;
-    transform: translateY(300%);
-    margin: 50px;
+    color: black;
+    border: solid 0px ;
+    margin: auto;
+}
+
+#hidden{
+    display: none;
 }
