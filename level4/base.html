@@ -5,24 +5,17 @@
     <script type="text/javascript" src="myfix.js"></script><!--引用css文件和js文件-->
 </head>
 <body id="content">
-    <p>GeeK</p>
-    <div id="div1">
-        <h3>Introduction</h3>
-        
-        <img src="./images/QRcode.png" id="qrcode" width="150px" height="180px">
-    
-    </div>
-    <div id="div2">
-        <h3>About Us &#x1F385;</h3>
-    </div>
-    <div id="div3">
-        <h3>NewTread &#x1F3E0;</h3>
-    </div>
-    <div id="div4">
-        <h3>Contact Us &#x1F4DE;</h3>
-    </div>
-    <div id="div5">
-        <h3>Q&A &#x1F4E7;</h3>
+    <ul class="topnav">
+        <li><a href="#Introduction"><b>Introduction</b></a></li>
+        <li><a href="#About Us"><b>About Us</b></a></li>
+        <li><a href="#NewTread"><b>NewTread</b></a></li>
+        <li><a href="#Contact Us"><b>Contact Us</b></a></li>
+        <li><a href="#Q&A"><b>Q&A</b></a></li>
+
+
+
+    </ul>
+       
     </div>
 </body><!--以上为第一栏导航栏内容-->
 <br>
@@ -104,11 +97,13 @@
     <div class="boxs3">
         <h2 style="text-align: center top;"><b>More Questions</b></h2>
         
-        <p class="flip" onclick="myfix()">1.什么是Geek(极客)？Geek精神又是什么？</p>
+        <p>1.什么是Geek(极客)？Geek精神又是什么？</p>
 
-        <div id="hidden">
-            <p>拥有好奇之心，改变之力，爱钻研，能折腾。</p>
-        </div> 
+        <p id="hidden">拥有好奇之心，改变之力，爱钻研，能折腾。</p>
+        <form>
+            <input type="button" onclick="hidetext()" value="cang" />
+            <input type="button" onclick="showtext()" value="xian" />
+        </form>
     </div>   
 
     

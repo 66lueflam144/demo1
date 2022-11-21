@@ -1,69 +1,33 @@
+body {margin: 0;}
 
-
-#div1{
-    width: 20%;
-    height: 50px;
+ul.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: orange;
-    float: left;
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
+    border-radius: 15px;
+    height: 15%;
+    width: 100%;
+    position:absolute;
+    
+}
+
+ul.topnav li{float: left;}
+
+ul.topnav li a{
+    display: block;
+    color: black;
     text-align: center;
+    padding: 50px 90px;
+    text-decoration: none;
 }
 
-#div2{
-    width: 20%;
-    height: 50px;
-    background-color: orange;
-    float: left;
-    text-align: center;
-}
-
-#div3{
-    width: 20%;
-    height: 50px;
-    background-color: orange;
-    float: left;
-    text-align: center;
-}
-
-#div4{
-    width: 20%;
-    height: 50px;
-    background-color: orange;
-    float: left;
-    text-align: center;
-
-}
-
-#div5{
-    width: 20%;
-    height: 50px;
-    background-color: orange;
-    float: left;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    text-align: center;
-}
-
-#div1:hover{
-color: grey;
-}
-
-#div2:hover{
-    color: grey;
-    }
-
-#div3:hover{
+ul li a:hover {
+    background-color: rgb(255, 106, 0);
     color: grey;
 }
 
-#div4:hover{
-    color: grey;
-}
-
-#div5:hover{
-    color: grey;
-}
 /*以上为第一栏导航栏悬停效果设置*/
 
 
