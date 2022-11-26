@@ -25,6 +25,7 @@ li a:hover{
     color: gray;
 }
 
+/*二维码图片设置*/
 .qr{
     border-radius: 20px;
 }
@@ -41,6 +42,7 @@ li a:hover{
 .tt:hover+.overlay{
     opacity: 1;
 }
+
 /*背景图片设置*/
 #content{
     background-image: url(./images/background_Homepage.png);
@@ -58,8 +60,9 @@ li a:hover{
 
 #geek:hover{
     transform: scale(120%);
-    transition: 0.5s;
+    transition: 1s;
 }
+
  /*Introduc部分*/
  .Introduction{
     /*标题设置*/
@@ -100,6 +103,11 @@ li a:hover{
     position: absolute;
     top: 110%;
 }
+.girls{
+    /*产品图片设置*/
+    border-radius: 30px;
+    
+}
 
 .gkf{
         /*游戏开发*/
@@ -124,6 +132,7 @@ li a:hover{
     position: absolute;
     top: 350%;
 }
+
  /*About Us部分*/
            .boxab{
             /*整体边框*/
@@ -202,6 +211,7 @@ li a:hover{
            }
 
            /*conta us部分*/
+
            .boxcu{
             width: 70%;
             height: 500px;
@@ -217,7 +227,6 @@ li a:hover{
            }
            .tree1{
                 /*插入的图片的设置*/
-
             position: absolute;
             left: 0;
             top: 0px;
@@ -226,7 +235,6 @@ li a:hover{
 
            .tree2{
                 /*插入的图片的设置*/
-
             position: absolute;
             right: 0;
             top: 0;
@@ -234,14 +242,12 @@ li a:hover{
 
            .h{
                 /*标题的设置*/
-
             position: absolute;
             left: 40%;
 
            }
 
            ul.a{    /*列表的设置*/
-
             list-style-type: circle;
             position: absolute;
             left: 25%;
@@ -250,7 +256,6 @@ li a:hover{
 
            .b{
                 /*ps部分的设置*/
-
             width: 34%;
             height: 250px;
             position: absolute;
@@ -260,15 +265,12 @@ li a:hover{
            }
 
            .melon{    /*插入的图片的设置*/
-
-            
                 position: absolute;
                 right: 16%;
                 top: 55%;
            }
            .qq,.em,.git{
                 /*三个按钮的设置*/
-
             background-color: green;
             border: 3px;
             color: white;
@@ -281,7 +283,6 @@ li a:hover{
            }
            .qq{
                 /*位置设置*/
-
             position: absolute;
             bottom: 10%;
             left: 20%;
@@ -314,12 +315,14 @@ li a:hover{
            a.bili:visited{color: white;text-decoration: none;}
            a.bili:hover{text-decoration: none;}
 
-
+           /*邮箱复制部分*/
            #text{
             position: absolute;
-            top: -100px;
+            top: -10000px;
            }
+
            /*Q&A部分*/
+
            .mq{
             /*整体设置*/
             width: 70%;
