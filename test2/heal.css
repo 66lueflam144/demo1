@@ -314,6 +314,11 @@ li a:hover{
            a.bili:visited{color: white;text-decoration: none;}
            a.bili:hover{text-decoration: none;}
 
+
+           #text{
+            position: absolute;
+            top: -100px;
+           }
            /*Q&A部分*/
            .mq{
             /*整体设置*/
